@@ -1,0 +1,74 @@
+.header{
+    background-color: darkslateblue;
+    height: 200px;
+    overflow: hidden;  
+}
+
+.header_menu{
+ padding: 16 px 0;
+}
+
+.header_menu ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding-left: 0; 
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.header_menu ul a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.header_menu ul li{
+    display: inline-block;
+    margin-left: 70px;
+    text-transform: uppercase;
+
+}
+
+.header h1{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 50px;
+    font-family:'Franklin Gothic Medium';
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+.lekcia{
+    background-color:#a185de ;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 20%;
+    border-radius: 15px;
+    display: flex; 
+    color: #f0eded;
+    font-family:'Franklin Gothic Medium';
+    margin-top: 50px;
+    flex: 1 0 100px;
+
+}
+
+.lekcia img{
+    margin: 3%;
+    border-radius: 3%;  
+}
+
+.info{
+  width: 40%; 
+  position: relative; 
+  float: right;
+  margin-left: 50px;
+}
+
+
